@@ -20,6 +20,7 @@ public class DevopstestApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		logger.info("its a second logger....");
+		logger.info("Hello jenkins logger....");
 		
 	}
 
